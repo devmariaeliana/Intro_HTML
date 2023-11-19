@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(54, 52, 51);
+}
+h1{
+    color: rgb(233, 227, 227);
+}
+#area{
+    position: absolute;
+    left: 15px;
+    width: 320px;
+    height: 270px;
+    top: 1em;
+}
+#formulario{
+    position: absolute;
+    display: block;
+}
+fieldset{
+    background-color: rgb(107, 102, 102);
+    width: 400px;
+    height: 270px;
+}
+legend{
+    color: rgb(238, 227, 227);
+    font-weight:bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    left: 20px;
+}
+#formulario label{
+    color: rgb(231, 226, 226);
+    position: absolute;
+    margin-right: 5px;
+    left: 20px;
+    font-weight:bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+#formulario input.campo_nom{
+    background-color: rgb(85, 82, 79);
+    position: absolute;
+    left: 100px;
+    width: 250px;
+    margin-top: 5px;
+}
+#formulario input.campo_end{
+    background-color: rgb(85, 82, 79);
+    position: absolute;
+    left: 100px;
+    width: 250px;
+    margin-top: 5px;
+}
+#formulario input.campo_CEP{
+    background-color: rgb(85, 82, 79);
+    position: absolute;
+    left: 100px;
+    width: 250px;
+    margin-top: 5px;
+}
+#formulario input.campo_bar{
+    background-color: rgb(85, 82, 79);
+    position: absolute;
+    left: 100px;
+    width: 250px;
+    margin-top: 5px;
+}
+#formulario input.campo_cid{
+    background-color: rgb(85, 82, 79);
+    position: absolute;
+    left: 100px;
+    width: 250px;
+    margin-top: 5px;
+}
+#formulario input.campo_est{
+    background-color: rgb(85, 82, 79);
+    position: absolute;
+    left: 100px;
+    width: 250px;
+    margin-top: 5px;
+}
+#formulario input.btn_submit{
+    background-color: rgb(243, 235, 235);
+    position: absolute;
+    font-weight:bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    left: 20px; 
+    margin-top: 5px;
+}
+#form input.btn{
+
+    background-color: rgb(243, 235, 235);
+    position: absolute;
+    font-weight:bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    left: 20px; 
+    margin-top: 5px;
+}

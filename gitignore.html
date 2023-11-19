@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando Formulários</title>
+</head>
+<link rel="stylesheet" type="text/css" href="cad.css">
+<body>
+<H1 Align="Center">FAÇA SEU CADASTRO AQUI:</H1>
+<div id="area"></div>
+<form Align="Center" id="Formulario">
+<fieldset>
+<label>Nome:</label>
+    <input type="text" class="campo_nome" placeholder="Digite aqui o nome..."/> <br><br>
+    <label>Endereço:</label> 
+    <input type="text" class="campo_end" placeholder="Digite aqui o endereço..."/> <br><br>
+    <label>CEP:</label>
+    <input type="text" class="campo_CEP" placeholder="Digite aqui o CEP..."/> <br><br>
+    <label>Bairro:</label>
+    <input type="text" class="campo_bar" placeholder="Digite aqui o bairro..."/> <br><br>
+        CIDADE: <br>
+    <input type="text" name="cidade" placeholder="Digite aqui o cidade..."/> <br><br>
+        ESTADO: <br>
+    <input type="text" name="estado" placeholder="Digite aqui o estado..."/> <br><br>
+         <input type="Submit" value="CADASTRAR"/>
+</fieldset>  
+</form>
+<div id="area1">
+    <form>
+        <input id="btn"  type="button" value="VOLTAR" onclick="history.go(-1)">
+    </form> 
+</div>
+
+</body>
+</html>

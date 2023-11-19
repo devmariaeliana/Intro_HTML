@@ -1,0 +1,31 @@
+
+<form name="cadastro" method="POST" action="conect.php">
+
+</form>
+
+<?php
+  $con=mysqli_connect("localhost","root","","conexao");
+
+  if(mysqli_connect_error())
+  {
+    echo "Falha na conexão do Banco de Dados!".mysqli_connect_error();
+  }
+
+  $sql="INSERT INTO cadastro(nome,email,celular)VALUES('$_POST[nome]','$_POST[email]','$_POST[celular]')";
+
+  if(!mysqli_query($con,$sql))
+  {
+    die('Error:'.mysqli_error($con));
+  }else {
+    echo "Cadastro efetuado com sucesso!";
+    mysqli_close($con);
+  }
+?>
+
+
+ 	2	campo_nom	varchar(60)	utf8mb4_general_ci		Não	Nenhum			Alterar Alterar	Eliminar Eliminar	
+	3	campo_end	varchar(100) utf8mb4_general_ci	Não	Nenhum			Alterar Alterar	Eliminar Eliminar	
+	4	campo_CEP	varchar(10)	utf8mb4_general_ci		Não	Nenhum			Alterar Alterar	Eliminar Eliminar	
+	5	campo_bar	varchar(50)	utf8mb4_general_ci		Não	Nenhum			Alterar Alterar	Eliminar Eliminar	
+	6	campo_cid	varchar(15)	utf8mb4_general_ci		Não	Nenhum			Alterar Alterar	Eliminar Eliminar	
+	7	campo_est	varchar(10)	utf8mb4_general_ci		Não	Nenhum			Alterar Alterar	Eliminar Eliminar	
